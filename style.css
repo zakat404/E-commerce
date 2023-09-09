@@ -14,7 +14,7 @@
   input::placeholder {
     padding-left: 10px;
     margin-top: 5px;
-}
+    }
   h1 {
     font-size: 50px;
     line-height: 64px;
@@ -558,6 +558,59 @@ footer a:hover{
     font-size: 16px;
     font-weight: 600;
 }
+
+/* product single */
+#prodeteils { 
+    display: flex;
+    margin-top: 20px;
+}
+
+#prodeteils .single-pro-image{ 
+    width: 40%;
+    margin-right: 50px;
+}
+.small-image-group { 
+    display: flex;
+    justify-content: space-between;
+}
+.small-image-col { 
+    flex-basis: 24%;
+    cursor: pointer;
+}
+
+#prodeteils .single-pro-details { 
+    width: 50%;
+    padding-top: 30px;
+}
+#prodeteils .single-pro-details h4 { 
+    padding: 40px 0 20px 0;
+}
+
+#prodeteils .single-pro-details h2 { 
+    padding: 26px;
+}
+#prodeteils .single-pro-details select { 
+    display: block;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+}
+#prodeteils .single-pro-details input{ 
+    width: 50px;
+    height: 47px;
+    padding-left: 10px;
+    font-size: 16px;
+    margin-right: 10px;
+}
+#prodeteils .single-pro-details input:focus { 
+    outline: none;
+}
+#prodeteils .single-pro-details button { 
+    background: #088178;
+    color: #fff;
+}
+#prodeteils .single-pro-details span { 
+    line-height: 25px;
+}
 /* medya query*/
 
 @media (max-width: 799px) { 
@@ -699,9 +752,27 @@ footer a:hover{
     #newsletter .form { 
         width: 100%;
     }
+    /* single Product */
+    #prodeteils{ 
+        display: flex;
+        flex-direction: column;
+    }
+    #prodeteils .single-pro-image {
+        width: 100%;
+        margin-right: 0;
+    }
+    #prodeteils .single-pro-details {
+        width: 100%;
+        
+    }
 }
 
 
+  
+  
+  
+  
+  
 
 
 
